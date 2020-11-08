@@ -1,0 +1,282 @@
+/* ここから下に記載していく */
+body{
+  display:block;
+  text-align:center;
+  width:1200px;
+}
+.content{
+  width:100%;
+  margin:0 auto;
+}
+.header{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.header_nav{
+  display:flex;
+}
+.header_nav li{
+  margin-left:30px;
+}
+.mainvisual{
+  height:400px;
+  width:auto 0;
+  background:url(../img/mainbg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.mainvisual_title{
+  font-size: 30px;
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  padding-top:200px;
+}
+
+.mainvisual_sub{
+  font-size: 25px;
+  opacity: 60%;
+  color:white;
+  font-weight:lighter;
+  text-align: center;
+  padding-top:20px;
+}
+.about{
+  text-align:center;
+  margin-top:60px;
+  margin-bottom:80px;
+  color:・#222222
+}
+.about_title{
+  font-size:24px;
+  color:#ffd61a;
+  font-weight:bold;
+  margin-bottom:30px;
+}
+.about_sub{
+  font-size:18px;
+  font-weight:normal;
+  margin-bottom:60px;
+}
+.about_text{
+  margin-bottom:40px;
+}
+.about_img{
+  display:flex;
+  justify-content:space-around;
+  width:auto;
+}
+
+/* course */
+
+.course_title{
+  font-size:24px;
+  text-align:center;
+  margin-top:60px;
+  margin-bottom:30px;
+  color:・#222222;
+  font-weight:bold;
+}
+.course_title_text{
+  margin-bottom:60px;
+  text-align:center;
+  line-height:2;
+}
+
+.contents-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+.contents-wrap:nth-child(odd) {
+	flex-direction: row-reverse;
+}
+
+.contents-text {
+  width: 50%; 
+  background-color:#fafafa;
+}
+.contents-img {
+	width: 50%; 
+}
+
+.contents-text h2 {
+  margin-top:120px;
+	margin-bottom: 40px;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.contents-img img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+/* .course_title{
+  font-size:24px;
+  text-align:center;
+  margin-top:60px;
+  margin-bottom:30px;
+  color:・#222222;
+  font-weight:bold;
+}
+.course_title_text{
+  margin-bottom:60px;
+  text-align:center;
+  line-height:2;
+}
+.course_content{  
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 32px;
+  align-items: flex-start;
+}
+
+.course_content:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.course_content_title{
+  font-size:24px;
+  text-align:center;
+  color:・#222222;
+  font-weight:bold;
+}
+.course_content_des{
+  text-align:center;
+} */
+
+/* news */
+.newsBox{
+  width:auto;
+}
+.newsList{
+  display:flex;
+  justify-content: space-between;
+  width:960px;
+  margin:0 auto;
+}
+.newsList_item{
+  width:300px;
+}
+.more{
+  text-align:center;
+  
+}
+.more_button{
+  width:300px;
+  height:60px;
+  font-size:18px;
+}
+/* access */
+.access{
+  background-color:#fafafa;
+}
+.access h2{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align:center;
+}
+.access p{
+  padding-bottom:30px;
+  text-align:center;
+}
+.map{
+  width:1200px;
+  height:350px;
+}
+.access_desc{
+  margin-top:60px;
+  margin-bottom:30px;
+
+}
+
+/* contact */
+
+
+tbody{
+  max-width:640px;
+  height:auto;
+  margin:0 auto;
+  border:1px solid #bfbfbf;
+  
+  }
+  
+  tbody th{
+  width:240px;
+  padding-left:16px;
+  padding-right:64px;
+  }
+  tbody td{
+  width:400px;
+  }
+  
+  
+  tbody th, td{
+  padding:10px 0px; 
+  border:1px solid #CCCCCC;
+  font-weight: normal; 
+  font-size: 100%;
+  text-align: center; 
+  }
+  
+  
+  
+   /* テキストエリアの設定 */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,select{
+  width: 328px;
+  height:36px;
+  background-color: #fff;
+  color: #000;
+  margin:8px 0 8px 8px;
+  }
+  
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus,select:focus{
+  background-color: #fff;
+  }
+
+
+/* .contact_form{
+  width:800px;
+  
+}
+.contact dt{
+  width:320px;
+  height:36px;
+  padding-left:16px;
+  padding-right:64px;
+  border-right:solid #cacaca;
+}
+.contact dd{
+  float:right;
+  width:400px;
+  height:36px;
+  border-left:solid #cacaca;
+} 
+.contact input{
+  width: 328px;
+  height:20px;
+} */
+/* .contact_form{
+  width:568px;
+}
+.contact_form dt{
+  width:240px;
+  height:36px;
+}
+.contact_form dd{
+  width:328px;
+  height:36px;
+} */
